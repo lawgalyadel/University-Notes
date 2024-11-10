@@ -1,0 +1,29 @@
+.Box1 p2 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    top: 4px;
+}
+
+.Box1 {background-image: url(Physics.jpg);
+    width: 1450px;
+height: 50px;
+display: flex;
+background-color: rgba(219, 217, 217, 0.89);
+background-blend-mode: overlay;}
+
+.Box1 p {position: absolute;
+    top: 15px;
+    left: 1480px ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Box1 input {position: absolute;
+    top: 28px;
+    left: 1545px ;
+}
+
+.Box1 button {position: absolute;
+    top: 28px;
+    left: 1725px;
+}
