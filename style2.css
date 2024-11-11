@@ -6,16 +6,17 @@
 }
 
 .Box1 {background-image: url(Physics.jpg);
-    width: 1450px;
-height: 50px;
+    width: 70%;
+height: 5%;
 display: flex;
 background-color: rgba(219, 217, 217, 0.89);
 background-blend-mode: overlay;}
 
-.Box1 p {position: relative;
-    top: 10%;
-    left: 101% ;
+.Box1 label {position: relative;
+    top: 40%;
+    left: 108%;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 
 .Box1 input {position: absolute;
@@ -27,3 +28,80 @@ background-blend-mode: overlay;}
     top: 2.8%;
     left: 90%;
 }
+
+p { font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Book a { width: 350px;
+    font-size: 35px;
+    border: 3px solid darkblue;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+#Book {display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {height: 150px;
+}
+
+.Topics1 {display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#Mechanics {width:250px;
+    font-size: 30px;
+    border: 3px solid purple;
+    padding: 10px;}
+
+#Mechanics a {color:cadetblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding:10px
+}
+
+#Mechanics a:hover {color:black;
+    background-color: green;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding:10px;
+}
+
+.BookLink {display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-end;
+}
+
+#Oscillations {width:250px;
+    font-size: 30px;
+    border: 3px solid purple;
+    padding: 10px;}
+
+ #Oscillations a {color:cadetblue;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding:10px
+    }
+
+#Oscillations a:hover {color:black;
+        background-color: green;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding:10px;
+    }
