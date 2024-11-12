@@ -6,28 +6,10 @@
 }
 
 .Box1 {background-image: url(Physics.jpg);
-    width: 70%;
 height: 5%;
 display: flex;
 background-color: rgba(219, 217, 217, 0.89);
 background-blend-mode: overlay;}
-
-.Box1 label {position: relative;
-    top: 40%;
-    left: 108%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-}
-
-.Box1 input {position: absolute;
-    top: 2.9%;
-    left: 80% ;
-}
-
-.Box1 button {position: absolute;
-    top: 2.8%;
-    left: 90%;
-}
 
 p { font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
